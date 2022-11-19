@@ -1,0 +1,474 @@
+/* TABLE OF CONTENTS */
+
+/*-------------------
+1.General
+2.Navbar
+3.Banner
+4.About
+5.Services
+6.Portfolio
+7.Contact
+8.Footer
+--------------------------- */
+
+
+/* 1.General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;1,400;1,600;1,900&display=swap');
+
+/* global style */
+:root {
+	--main-color: #fd4766;
+	--body-color: #0e1525;
+	--dark-blue: #091020;
+	--dark-black: #0c0c18;
+	--text-color: #fff;
+	--text-color-1: #ff5722;
+	--gray-color: #c6c9d8bf;
+	--gradient-color: linear-gradient(-224deg, #fd4766 15%, #337dff 50%, #d533f3 80%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	scroll-behavior: smooth;
+	background-color: #0e1525;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-btn {
+	font-size: 15px;
+	color: var(--text-color);
+	font-weight: 500;
+	display: inline-block;
+	border: 1px solid var(--gray-color);
+	border-radius: 50px;
+	padding: 10px 27px;
+	background-color: transparent;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+	transform: uppercase;
+}
+
+.main-btn:hover {
+	background-color: var(--main-color);
+	color: var(--text-color);
+	border: 1px solid var(--main-color);
+}
+
+h1 {
+	font-size: 54px;
+	color: var(--text-color);
+	line-height: 68px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+h1 span {
+	color: var(--main-color);
+}
+
+h2 {
+	font-size: 50px;
+	color: var(--text-color);
+	line-height: 1.3;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	color: var(--text-color);
+	font-weight: 600;
+	letter-spacing: 1.3px;
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-size: 18px;
+	color: var(--gray-color);
+	font-weight: 600;
+	letter-spacing: 4px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 15px;
+	color: var(--gray-color);
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+p span{
+	color: var(--main-color);
+	font-weight: bolder;
+}
+
+.subtitle {
+	display: inline-block;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	line-height: 18px;
+	font-weight: 500;
+	margin-bottom: 12px;
+	margin-top: 5%;
+	color: var(--text-color-1);
+}
+
+.header-para {
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* 2.Navbar */
+/* header-section starts */
+.header-wrapper a.navbar-brand img {
+	width: 100%;
+	max-width: 120px;
+	height: auto;
+}
+
+.header-wrapper .navbar {
+	padding: 15px 0px;
+}
+
+.header-wrapper .navbar-toggler {
+	border: 0;
+	color: var(--gray-color);
+	line-height: 2;
+}
+
+.header-wrapper .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.navbar-nav .nav-item {
+	padding: 0px 10px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav a.nav-link {
+	font-size: 17px;
+	color: var(--gray-color);
+	font-weight: 600;
+	position: relative;
+	display: inline-block;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: var(--main-color);
+	bottom: 0;
+	transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link.active::after,
+.navbar-nav .nav-item .nav-link:hover::after {
+	width: 100%;
+}
+
+/* NAVBAR SCROLLTOP */
+.headerBg {
+	background-color: var(--dark-black);
+}
+/* header-section ends */
+
+/* 3.Banner */
+/* home-section starts */
+
+.home-section {
+	width: 100%;
+    height: auto;
+    min-height: 650px;
+    padding: 120px 0px;
+}
+.home-img img {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	margin: 0 auto;
+}
+/* home-section ends */
+
+/* 4.About */
+/* about-section starts */
+
+.about-section {
+	margin-top: 7%;
+}
+
+.about-img img {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	margin-bottom: -4rem;
+}
+
+.about-text .nav-pills {
+	border: 1px solid var(--gray-color);
+	border-radius: 50px;
+	width: 40%;
+}
+
+.about-text .nav-pills .nav-item {
+	padding: 0;
+}
+
+.about-text ul li .nav-link {
+	display: inline;
+	font-size: 16px;
+	color: var(--gray-color);
+	font-weight: 500;
+	border: 0;
+	padding: 10px 17px;
+}
+
+.about-text ul li .nav-link.active {
+	background-color: var(--main-color);
+	color: var(--text-color);
+	border-radius: 50px;
+}
+
+.about-text .single-progress {
+	margin-top: 35px;
+	overflow: hidden;
+	position: relative;
+}
+
+.about-text .single-progress .progress {
+	background-color: var(--text-color);
+	height: 4px;
+	overflow: visible;
+	box-shadow: none;
+}
+
+.about-text .single-progress .progress-bar {
+	background-image: var(--gradient-color);
+}
+
+.about-section .single-progress .label {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--main-color);
+	font-size: 16px;
+}
+
+.about-text .tab-pane li {
+	list-style: none;
+}
+
+.about-text .tab-pane li a {
+	display: inline-block;
+	font-size: 14px;
+	color: var(--gray-color);
+	font-weight: 500;
+	padding: 5px 0px;
+}
+
+.about-text .tab-pane li a span {
+	display: block;
+}
+/* about-section ends */
+
+/* 5.Services */
+/* service-section starts */
+
+.service-section {
+	margin-top: 7%;
+}
+
+.service-items .card {
+	background-color: var(--dark-blue);
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: transform 0.50s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
+
+.service-items .card:hover {
+	box-shadow: 0px, 2px, 70px rgba(253 71 102 / 53);
+	transform: translateY(-20px);
+}
+
+.service-items .card .card-body img {
+	width: 100%;
+	max-width: 90px;
+	height: 70px;
+	margin-bottom: 15px;
+}
+
+.service-items .service4 img {
+	max-width: 90px;
+}
+/* service-section ends */
+
+/* 6.Portfolio */
+/* portfolio-section starts */
+
+.portfolio-section {
+	margin-top: 5%;
+}
+
+.row.margin-top {
+    margin-top: 5rem;
+}
+.portfolio-section .card {
+	height: 100%;
+	min-height: 350px;
+	overflow: hidden;
+	border: 1px solid var(--dark-blue);
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0px 0px 16px 4px var(--dark-blue);
+}
+
+.portfolio-section .card span {
+	transition: background-position 4s ease-in-out 0s;
+	height: 100%;
+	width: 100%;
+	background-position: top center;
+	background-size: cover;
+}
+
+.portfolio-section .card:hover span {
+	background-position: bottom center;
+}
+/* service-section ends */
+
+/* 7.Contact */
+/* contact-section starts */
+
+.contact-section {
+	margin-top: 5%;
+}
+
+.contact-section h2 {
+	color: var(--main-color);
+}
+
+.contact-text .subtitle {
+	margin-left: -12px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.contact-text h2 {
+	margin-left: -12px;
+}
+
+.call-details .contact-left {
+	font-size: 15px;
+	color: var(--gray-color);
+	padding: 5px 0px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.call-details .contact-right a {
+	font-size: 15px;
+	color: var(--text-color);
+	font-weight: 500;
+}
+
+.call-details .form-control {
+	width: 94%;
+	transition: all 0.3s ease;
+	background: transparent;
+	font-size: 17px;
+	padding: 7px 20px;
+	margin-left: -12px;
+}
+
+.call-details .form-control:focus {
+	box-shadow: none;
+}
+
+.call-details .form-control:hover {
+	border: 1px solid var(--main-color);
+	border-radius: 4px;
+	color: var(--text-color);
+}
+
+.call-details textarea {
+	transition: all 0.3s ease;
+	background: transparent;
+	font-size: 17px;
+	padding: 10px 20px;
+	margin-left: -12px;
+}
+
+.call-details textarea:hover {
+	border: 1px solid var(--main-color);
+	border-radius: 4px;
+	color: var(--text-color);
+}
+
+.contact-img img {
+	width: 100%;
+	max-width: 620px;
+	height: auto;
+}
+/* contact-section ends */
+
+/* 8.Footer */
+/* footer-section starts */
+
+.footer-section {
+	margin-top: 10%;
+	background-color: var(--dark-blue);
+	padding: 10px 0px;
+}
+
+.footer-item {
+	margin-top: 16px;
+}
+
+.footer-item img {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
+}
+
+.footer-item .social-icon a {
+	display: inline-block;
+	font-size: 20px;
+	padding: 3px 9px;
+	border: 1px solid var(--gray-color);
+	margin: 0px 5px;
+	border-radius: 50%;
+	color: var(--gray-color);
+	transition: all 0.3s;
+}
+
+.footer-item .social-icon a:hover {
+	background-color: var(--main-color);
+	color: var(--text-color);
+}
+
+.footer-item p {
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: -25px;
+	margin-top: 27px;
+}
+
+.footer-item a {
+	color: var(--main-color);
+}
+
+/* footer-section ends */

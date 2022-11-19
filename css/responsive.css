@@ -1,0 +1,423 @@
+@media (min-width: 320px) and (max-width:575px) {
+
+	/* 1.General */
+	h1 {
+		font-size: 40px;
+		color: var(--text-color);
+		font-weight: 600;
+	}
+
+	h1 span {
+		color: var(--main-color);
+	}
+
+	h2 {
+		font-size: 50px;
+		color: var(--text-color);
+		line-height: 1.3;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+		color: var(--text-color);
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+
+	h6 {
+		font-size: 18px;
+		color: var(--gray-color);
+		font-weight: 600;
+		letter-spacing: 4px;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 15px;
+		color: var(--gray-color);
+		font-weight: 400;
+		line-height: 18px;
+		letter-spacing: 1px;
+	}
+
+	/* 2.navbar */
+	.header-wrapper .menu-navbar-nav {
+		background-color: var(--dark-blue);
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	.header-wrapper .menu-navbar-nav .nav-item .nav-link {
+		margin-top: 15px;
+	}
+
+	/* 3.Banner */
+	.bg-section {
+		padding: 22px 0px;
+	}
+	.home-img{
+		margin-top: 5rem;
+	}
+	.home-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	/* 4.About */
+	.about-img {
+		margin-top: 20px;
+	}
+
+	.about-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	.about-text {
+		margin-top: 20px;
+	}
+
+	.about-text .nav-pills {
+		width: 100%;
+	}
+
+	.about-text ul li .nav-link {
+		font-size: 15px;
+	}
+
+	.about-text ul li .nav-item {
+		padding: 0px;
+	}
+
+	.about-text .single-progress h6 {
+		text-align: left;
+	}
+
+	.about-text .tab-pane li {
+		text-align: left;
+	}
+
+	/* 5.services */
+	.subtitle {
+		line-height: 0;
+		margin-top: 10%;
+	}
+
+	.section-title h1 {
+		line-height: 1.3;
+		font-size: 26px;
+	}
+
+	.section-title p {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* 7.contact */
+
+	.col-lg-6.contact-text {
+		text-align: center;
+	}
+
+	.call-details .form-control {
+		margin: 0 auto;
+	}
+
+	.call-details textarea {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	/* 8.footer */
+	.footer-item img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	.footer-item .social-icon {
+		margin: 0 auto;
+	}
+
+	.footer-item p {
+		margin: 0;
+		text-align: center;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) {
+
+	/* 2.navbar */
+	.header-wrapper .menu-navbar-nav {
+		background-color: var(--dark-blue);
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	.header-wrapper .menu-navbar-nav .nav-item .nav-link {
+		margin-top: 15px;
+	}
+
+	/* 3.Banner */
+	.home-img{
+		margin-top: 5rem;
+	}
+	.home-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	/* 4.About */
+	.about-img {
+		margin-top: 20px;
+	}
+
+	.about-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	.about-text {
+		margin-top: 20px;
+	}
+
+	.about-text .nav-pills {
+		width: 56%;
+	}
+
+	.about-text ul li .nav-link {
+		font-size: 15px;
+	}
+
+	.about-text ul li .nav-item {
+		padding: 0px;
+	}
+
+	.about-text .single-progress h6 {
+		text-align: left;
+	}
+
+	.about-text .tab-pane li {
+		text-align: left;
+	}
+
+	/* 5.services */
+	.section-title {
+		margin-top: 30px;
+	}
+
+	.subtitle {
+		line-height: 1;
+	}
+
+	.section-title h1 {
+		line-height: 1.3;
+		font-size: 45px;
+	}
+
+	.section-title p {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* 6.portfolio */
+	.portfolio-section .card {
+		min-height: 400px;
+	}
+
+	/* 7.contact */
+
+	.col-lg-6.contact-text {
+		text-align: center;
+	}
+
+	.call-details .form-control {
+		margin: 0 auto;
+	}
+
+	.call-details textarea {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	/* 8.footer */
+	.footer-item img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	.footer-item .social-icon {
+		margin: 0 auto;
+	}
+
+	.footer-item p {
+		margin: 0;
+		text-align: center;
+	}
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+
+	/* 2.navbar */
+	.header-wrapper .menu-navbar-nav {
+		background-color: var(--dark-blue);
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	.header-wrapper .menu-navbar-nav .nav-item .nav-link {
+		margin-top: 15px;
+	}
+
+	/* 3.Banner */
+	.home-img{
+		margin-top: 5rem;
+	}
+	.home-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	/* 4.About */
+	.about-img {
+		margin-top: 20px;
+	}
+
+	.about-img img {
+		margin: 0 auto;
+		display: table;
+	}
+
+	.about-text {
+		margin-top: 20px;
+	}
+
+	.about-text .nav-pills {
+		width: 41%;
+	}
+
+	.about-text ul li .nav-link {
+		font-size: 15px;
+	}
+
+	.about-text ul li .nav-item {
+		padding: 0px;
+	}
+
+	.about-text .single-progress h6 {
+		text-align: left;
+	}
+
+	.about-text .tab-pane li {
+		text-align: left;
+	}
+
+	/* 5.services */
+	.section-title {
+		margin-top: 30px;
+	}
+
+	.service-items .card {
+		padding: 20px 15px;
+	}
+
+	/* 6.portfolio */
+	.portfolio-section .card {
+		min-height: 270px;
+	}
+
+	/* 7.contact */
+
+	.col-lg-7.contact-right {
+		margin-left: -12px;
+	}
+
+	.call-details .form-control {
+		width: 90%;
+	}
+
+	/* 8.footer */
+	.footer-item .social-icon {
+		float: left;
+	}
+
+	.footer-item p {
+		margin: 0;
+		text-align: center;
+	}
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1024px) {
+
+	/* 3.Banner */
+	.home-section {
+		min-height: 558px;
+	}
+
+	/* 4.About */
+	.about-text .nav-pills {
+		width: 56%;
+	}
+
+	/* 6.portfolio */
+	.portfolio-section .card {
+		min-height: 275px;
+	}
+
+	/* 7.contact */
+
+	.call-details textarea {
+		width: 100%;
+	}
+
+	/* 8.footer */
+	.footer-item p {
+		font-size: 9px;
+		font-weight: 600;
+	}
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1025px) and (max-width:1200px) {
+
+	/* 3.Banner */
+	.home-section {
+		min-height: 558px;
+	}
+	
+	/* 4.About */
+	.about-text .nav-pills {
+		width: 56%;
+	}
+
+	/* 6.portfolio */
+	.portfolio-section .card {
+		min-height: 300px;
+	}
+
+	/* 7.contact */
+
+	.call-details textarea {
+		width: 100%;
+	}
+
+	/* 8.footer */
+	.footer-item p {
+		font-size: 10px;
+		font-weight: 600;
+		margin-left: -40px;
+	}
+
+
+}
