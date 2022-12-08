@@ -395,7 +395,8 @@ p span{
 }
 
 .call-details .form-control:focus {
-	outline: var(--text-color);
+	outline: var(--main-color);
+	border: 1px solid var(--main-color);
 }
 
 .call-details .form-control:hover {
