@@ -395,7 +395,7 @@ p span{
 }
 
 .call-details .form-control:focus {
-	box-shadow: none;
+	outline: var(--text-color);
 }
 
 .call-details .form-control:hover {
@@ -416,6 +416,9 @@ p span{
 	border: 1px solid var(--main-color);
 	border-radius: 4px;
 	color: var(--text-color);
+}
+.mytextarea {
+  width: 94%;
 }
 
 .contact-img img {
